@@ -6,18 +6,20 @@ import { Feature } from "./page/Features";
 import { Second } from "./page/Second";
 import { TestBottom } from "./page/Testimonial";
 import { Buttom } from "./page/Buttom";
+import { Footer } from "./page/Footer";
 function App() {
-    return (
-        <div className="App">
-            <Hero />
-            <About />
-            <Feature />
-            <Second />
-            <Countdown />
-            <TestBottom />
-            <Buttom/>
-        </div>
-    );
+  return (
+    <div className="App">
+      <Hero />
+      <About />
+      <Feature />
+      <Second />
+      <Countdown />
+      <TestBottom />
+      <Buttom />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
